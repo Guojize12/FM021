@@ -1,6 +1,6 @@
 #include "mf_rtc_clock.h"
 #include "fm33lc0xx_fl_rtc.h"
-#include "fm33lc0xx_fl.h"
+#include "mf_config.h"
 
 
 void MF_RTC_Init(void)
@@ -13,7 +13,7 @@ void MF_RTC_Init(void)
 	RTC_InitStruct.hour = 0x0;
 	RTC_InitStruct.minute = 0x0;
 	RTC_InitStruct.second = 0x0;
-	FL_RTC_Init(RTC, &RTC_InitStruct);
+	 FL_RTC_Init(RTC, &RTC_InitStruct);
 }
 
 

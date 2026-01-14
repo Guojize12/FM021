@@ -42,6 +42,7 @@ extern "C" {
 #include "mf_spi.h"
 #include "mf_iwdt.h"
 #include "mf_rtc_clock.h"
+#include "mf_clock.h"
 
 void MF_Config_Init(void);
 void Error_Handler(void);
@@ -53,4 +54,4 @@ void Error_Handler(void);
 
 #endif /* __MF_CONFIG_H */
 
-/*************************(C) COPYRIGHT Fudan Microelectronics **** END OF FILE*************************/
+

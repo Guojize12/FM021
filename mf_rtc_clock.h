@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 void MF_RTC_Init(void);
-void MF_Clock_Init(void);
+
 
 #ifdef __cplusplus
 }

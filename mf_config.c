@@ -9,23 +9,24 @@
 void MF_Config_Init(void)
 {
  
-     MF_Clock_Init();
-     MF_GPIO_Init();
-     MF_EXTI_Init();
+   //  MF_GPIO_Init();
+     // MF_EXTI_Init();
      MF_BSTIM32_Init();
+     MF_BSTIM32_Interrupt_Init();
      MF_GPTIM0_TimerBase_Init();
-     MF_ADC_Common_Init();
-     MF_ADC_Sampling_Init();
-     MF_SPI1_Init();
-     MF_SPI2_Init();
-     MF_UART0_Init();
-     MF_UART1_Init();
-     MF_UART4_Init();
-     MF_UART5_Init();
-     MF_LPUART0_Init();
-     MF_IWDT_Init();
-     MF_RTC_Init();
-     MF_NVIC_Init();
+     MF_GPTIM0_Interrupt_Init();
+  //   MF_ADC_Common_Init();
+  //   MF_ADC_Sampling_Init();
+     // MF_SPI1_Init();
+     // MF_SPI2_Init();
+     // MF_UART0_Init();
+ //     MF_UART1_Init();
+     // MF_UART4_Init();
+    //  MF_UART5_Init();
+    //MF_LPUART0_Init();
+ //    MF_IWDT_Init();
+    // MF_RTC_Init();
+ //    MF_NVIC_Init();
 }
 
 /**

@@ -1,6 +1,13 @@
 #include "mf_uart.h"
 #include "fm33lc0xx_fl.h"
 
+
+//#define USE_UART0
+#define USE_UART1
+//#define USE_UART4
+//#define USE_UART5
+//#define USE_LPUART0
+
 // 串口0
 #ifdef USE_UART0
 void MF_UART0_Init(void)
